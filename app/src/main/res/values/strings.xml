@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">italyTourGuide</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+        <string name="place_tab">Place</string>
+        <string name="restaurant_tab">Restaurant</string>
+        <string name="hotel_tab">Hotel</string>
+        <string name="phrases_tab">Phrases</string>
+        <string name="open">Open</string>
+        <string name="close">Close</string>
+
+        <!--attractive place string -->
+        <string name="place_colosseum">Colosseum</string>
+        <string name="place_venice_canals">Venice Canals</string>
+        <string name="place_pompeii">PomPeii</string>
+        <string name="place_leaning_tower_of_pisa">LeaningTowerOfPisa</string>
+        <string name="place_lake_como">Lake Como</string>
+        <string name="place_amalifi_coast">Amalfi Coast</string>
+        <string name="place_florence_duomo">Fluerence Duomo</string>
+        <string name="place_cinque_terre">Cinque Terre</string>
+        <string name="place_vatican_city">Vatiican City</string>
+        <string name="place_capri">Capri</string>
+
+        <!-- attractive addresss of place -->
+        <string name="address_colosseum">pizza del colosseum ,1,00184</string>
+        <string name="address_venice_canals">venice CA 90282</string>
+        <string name="address_pompeii">italy-napolie 80045</string>
+        <string name="address_leaning_tower_of_pisa">pizza del Duomo ,65126P18ap</string>
+        <string name="address_lake_como">italy-lombandy</string>
+        <string name="address_amalfi_coast">province of salerno ,84011</string>
+        <string name="address_forence_diomo">pizza del duomo 150122 finenze</string>
+        <string name="address_cinque_terre">italy-liguria</string>
+        <string name="address_capri">napies-tyrrhenian sea</string>
+        <string name="address_vatican">+Rome-italy</string>
+
+        <!--attractive restaurant in italy-->
+        <string name="restaurant_club_del_doge_restaurant">Club Del Doge Restaurant</string>
+        <string name="restaurant_da_vittorio_brusaporto">Da Vittorio Brusaporto</string>
+        <string name="restaurant_dal_pescatore_runate">Dal Pescatore Runate</string>
+        <string name="restaurant_RISTORANTE_LA_SPONDA">Ristorante LA Sponda</string>
+        <string name="restaurant_la_pergola_Roma">La Pergola Roma</string>
+        <string name="restaurant_RATANA_MILAN">Ratana Milan</string>
+        <string name="restaurant_acquolina">Acquolina</string>
+        <string name="restaurant_la_rosetta">La Rosetta</string>
+        <string name="restaurant_ii_pelicano">II Pelicano</string>
+        <string name="restaurant_alle_testiere">Alle Testiere</string>
+
+        <!-- attractive restaurant phone number-->
+        <string name="phone_club_del_doge">+39041794611</string>
+        <string name="phone_da_vittorio">+39035681024</string>
+        <string name="phone_dal_pescatore">+0390376723001</string>
+        <string name="phone_ristoranta_la_sponda">+39034578008</string>
+        <string name="phone_la_pergola">+390635092152</string>
+        <string name="phone_ratana_millan">+390287128855</string>
+        <string name="phone_via_del_vantagglo">+39063201590</string>
+        <string name="phone_la_rosetta">+39066861002</string>
+        <string name="phone_ll_pelicano">+390564858111</string>
+        <string name="phone_alle_testiere">+390415227220</string>
+
+        <!-- attractive hotel-->
+        <string name="hotel_inn_at_roman_forum">Inn At Roman Forum</string>
+        <string name="hotel_hassier">Hassier</string>
+        <string name="hotel_compo_de_fiori">Compo De\'Flori</string>
+        <string name="hotel_vila_spalletti_traivelli">Vila Spalletti Traivelli</string>
+        <string name="hotel_eden_hotel">Eden Hotel</string>
+        <string name="hotel_de_russia">Ratana Milan</string>
+        <string name="hotel_raphael">Raphael</string>
+        <string name="hotel_grand_de_la_minerue">Grand De La Minerue</string>
+        <string name="hotel_modestic_roma">Modestic Roma</string>
+        <string name="hotel_parco_del_principi_grand">Parco Del Principi Grand</string>
+
+        <!-- attractive hotel phone number-->
+        <string name="phone_roman_forum">+390669190970</string>
+        <string name="phone_hassier">+3906699340</string>
+        <string name="phone_Compo">+39066874886</string>
+        <string name="phone_Vila_Spalletti">+390648907934</string>
+        <string name="phone_eden">+3906478121</string>
+        <string name="phone_de_russia">+3906328881</string>
+        <string name="phone_raphael">+390682831</string>
+        <string name="phone_grand_de_la_minerue">+3906695201</string>
+        <string name="phone_parco_del_principi_grand">+3906695201</string>
+        <string name="phone_modestic_roma">+3906421441</string>
+
+
+    <!--phrases in English-->
+    <string name="phrases_bonjour">bonjour</string>
+    <string name="phrases_thank_you">thank you</string>
+    <string name="phrases_please">please</string>
+    <string name="phrases_goodbye">good bye</string>
+    <string name="phrases_Where_is_the_bathroom">where is the bathroom</string>
+    <string name="phrases_Im_lost">I\'m lost</string>
+    <string name="phrases_Can_you_speak_English">Can you speak English?</string>
+    <string name="phrases_Help">Help! </string>
+    <string name="phrases_my_name_is">My Name is</string>
+    <string name="phrases_what_is_your_name">what is your name</string>
+
+    <!--phrases in italy -->
+    <string name="phrases_italy_bonjour">Buongiorno</string>
+    <string name="phrases_italy_thank_you">grazie</string>
+    <string name="phrases_italy_please">per favore</string>
+    <string name="phrases_italy_goodbye">Arrivederci</string>
+    <string name="phrases_italy_Where_is_the_bathroom">dov\'è il bagno</string>
+    <string name="phrases_italy_Im_lost">Mi sono perso</string>
+    <string name="phrases_italy_Can_you_speak_English">Parli inglese?</string>
+    <string name="phrases_italy_Help">Aiuto!</string>
+    <string name="phrases_italy_my_name_is">mi chiamo</string>
+    <string name="phrases_italy_what_is_your_name">Come ti chiami?</string>
+
+
+</resources>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/place_image_view"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+    <LinearLayout
+        android:id="@+id/textContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/place_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:paddingTop="16dp"
+            style="@style/main_text_style"
+            />
+        <TextView
+            android:id="@+id/address_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="#fff"
+            style="@style/secondary_text_style"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

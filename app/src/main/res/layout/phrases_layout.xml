@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/list_item_height"
+    android:background="@color/background">
+
+
+        <LinearLayout
+            android:id="@+id/textContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/english_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:paddingTop="16dp"
+                />
+            <TextView
+                android:id="@+id/italy_translation_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="top"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#fff"
+                />
+        </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/audio_image_view"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_play_circle_filled_black_24dp"/>
+</RelativeLayout>

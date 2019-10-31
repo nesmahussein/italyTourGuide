@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_location_on_white_36dp"
+            android:id="@+id/place_tab"
+            android:title="@string/place_tab">
+        </item>
+        <item
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:id="@+id/restaurant_tab_"
+            android:title="@string/restaurant_tab">
+        </item>
+        <item
+            android:icon="@drawable/ic_hotel_black_24dp"
+            android:id="@+id/hotel_tab"
+            android:title="@string/hotel_tab">
+        </item>
+        <item
+            android:icon="@drawable/ic_language_black_24dp"
+            android:id="@+id/phrases_tab"
+            android:title="@string/phrases_tab">
+        </item>
+    </group>
+</menu>
